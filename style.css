@@ -15,3 +15,10 @@ body{
     background-color: #111827;
     color: white;
 }
+.svg-background{
+    background: url('images/layered-waves-haikei.svg');
+    background: url('images/stacked-waves1.svg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: bottom 50% right 1%;
+}
