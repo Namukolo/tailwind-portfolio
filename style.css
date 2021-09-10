@@ -4,19 +4,32 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
+    background-color: #10002b;
+
+}
+.header-section, .dark-section{
+    background-color: #10002b;
 }
 
 .white-section{
-    background-color: white;
+    background-color: #faf9f9;
     color: #374151;
+}
+
+.card-back{
+    background-color:#140035;
 }
 
 .dark-btn{
     background-color: #111827;
     color: white;
 }
+.dark-text{
+    color: #10002A;
+    
+}
 .svg-background{
-    background: url('images/layered-waves-haikei.svg');
+    background: url('images/stacked-waves2.svg');
     /* background: url('images/stacked-waves1.svg'); */
     background-size: cover;
     /* background-repeat: no-repeat; */
