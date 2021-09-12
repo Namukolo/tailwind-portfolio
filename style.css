@@ -32,13 +32,13 @@ body{
     color: #140035;
 }
 
+
+
 .smooth-mobile{
     transition: all 3s ease-in;
 }
 .svg-background{
     background: url('images/stacked-waves2.svg');
-    /* background: url('images/stacked-waves1.svg'); */
     background-size: cover;
-    /* background-repeat: no-repeat; */
     background-position: bottom 50% right 1%;
 }
