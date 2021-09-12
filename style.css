@@ -26,7 +26,10 @@ body{
 }
 .dark-text{
     color: #140035;
-    
+}
+
+.smooth-mobile{
+    transition: all 1s ease-in;
 }
 .svg-background{
     background: url('images/stacked-waves2.svg');
