@@ -29,7 +29,7 @@ body{
 }
 
 .smooth-mobile{
-    transition: all 1s ease-in;
+    transition: all 3s ease-in;
 }
 .svg-background{
     background: url('images/stacked-waves2.svg');
