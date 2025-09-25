@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Namukolodev</title>
@@ -16,7 +17,7 @@
 
     <!-- NAVBAR -->
     <nav>
-        <div class=" dark-section px-4  md:px-6 lg:px-12 flex text-gray-400 py-4  md:py-6 items-center justify-between">
+        <div class=" dark-section px-4  md:px-6 lg:px-8 flex text-gray-400 py-4  md:py-6 items-center justify-between">
             <!-- Logo goes here -->
             <div class="inline-flex flex text-white text-lg md:text-xl items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
@@ -31,20 +32,20 @@
 
 
             <!-- Secondary navigation -->
-            <div class=" hidden md:flex w-1/2 md:w-1/2 text-sm md:text-base justify-between items-center">
+            <div class=" hidden md:flex w-1/2 md:w-1/2 text-sm md:text-base justify-end gap-4 items-center">
                 <a href="#what-I-do" class="hover:text-white transition duration-200">What I do</a>
                 <a href="#my-work" class="hover:text-white transition duration-200">My Work</a>
                 <a href="#get-in-touch"
-                    class="flex text-white dark-section border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-base dark-btn  text-center inline-flex justify-center svg-background"">Lets chat</a>
+                    class="flex text-white dark-section border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-base dark-btn  text-center inline-flex justify-center svg-background transform hover:scale-105 transition-transform duration-200">Lets
+                    chat</a>
             </div>
 
             <!-- Mobile hamburger -->
             <div class=" md:hidden mob-nav-btn cursor-pointer">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16m-7 6h7" />
-                    </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
             </div>
         </div>
         <!-- Mobile Navigation -->
@@ -54,7 +55,7 @@
             <a href="#what-I-do" class="block pb-2 hover:text-white ">What I do</a>
             <a href="#my-work" class="block pb-4 hover:text-white ">My Work</a>
 
-            <a  href="#get-in-touch"
+            <a href="#get-in-touch"
                 class="flex mx-auto text-white dark-section border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-base dark-btn  text-center inline-flex justify-center svg-background"">Lets chat</a>
         </div>
 
@@ -64,19 +65,24 @@
 
     <!-- HERO SECTION -->
 
-    <section class=" text-gray-300 body-font relative svg-background dark-section">
+    <section class=" text-gray-300 body-font relative svg-background dark-section lg:px-14">
                 <div class="container mx-auto flex px-2 lg:py-24 md:py-20 py-10 lg:flex-row flex-col items-center">
-
                     <div
-                        class="lg:flex-grow lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center   mt-12 ">
+                        class="lg:flex-grow lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center mt-12">
                         <p class="font-xs">Hi, my name is</p>
-                        <h1 class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white font-semibold">Namukolo.
-                            <p class=" lg:block text-gray-800">I build things for the web</p>
+                        <h2 class="title-font sm:text-5xl text-3xl mb-4 font-medium text-white font-semibold">
+                            Namukolo.
+                        </h2>
+
+                        <h1 class="sm:text lg:text-6xl mb-4 font-medium text-white font-semibold">
+                            I build things for the web
                         </h1>
-                        <p class="mb-8 leading-relaxed">I’m a software engineer specializing in building (and
-                            occasionally designing) exceptional digital experiences.<br><br>Currently, I’m focused on
-                            building accessible, human-centered custom websites, tailored to build brands and bring
-                            businesses more customers</p>
+
+                        <p class="mb-8 leading-relaxed">
+                            I’m a software engineer creating accessible, human-centered websites that help brands grow
+                            and connect with more customers.
+                        </p>
+
                         <div class="flex justify-center">
                             <button
                                 class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact</button>
@@ -95,10 +101,9 @@
                         </div>
                     </div>
 
-                    <!-- <div class="lg:max-w-lg lg:w-full w-full  md:block  lg:order-last order-first">
-                        <img class="object-cover object-center rounded" alt="hero" src="images/hero-image1.png">
-                    </div> -->
-                    <div class="lg:max-w-lg lg:w-full w-full  md:block  lg:order-last order-first">
+
+                    <div
+                        class="lg:max-w-lg lg:w-full w-full  md:block  lg:order-last order-first lg:-top-14 lg:relative">
                         <img class="object-cover object-center rounded" alt="hero" src="images/hero-image-small.png">
                     </div>
                 </div>
@@ -107,22 +112,25 @@
                 <!-- ABOUT SECTION -->
 
                 <section class="text-gray-400 bg-gray-900 body-font white-section" id="what-I-do">
-                    <div class="container px-5 py-24 mx-auto">
-                        <div class="flex flex-col text-center w-full mb-20">
-                            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-dark font-semibold">Let me do the hard
+                    <div class="container px-5 py-20 pb-24 mx-auto lg:px-14">
+                        <div class="flex flex-col text-center w-full mb-16">
+                            <h1 class="text-4xl md:text-4xl font-medium title-font text-dark font-semibold mb-2">Let me
+                                do the hard
                                 stuff.
                             </h1>
-                            <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600">I’ll build you an
+                            <p class="lg:w-4/6 mx-auto leading-relaxed text-base text-gray-600">I’ll build you an
                                 amazing website, so you can focus on what matters: keeping your customers happy and
                                 growing your business.</p>
                         </div>
                         <div class="flex flex-wrap -m-4 text-center">
                             <div class="p-4 md:w-1/3  sm:w-1/2 w-full">
-                                <div class="shadow shadow-lg px-4 py-6 rounded-lg">
-                                    <i class="far fa-flag text-5xl py-2"></i>
-                                    <h2 class="title-font font-medium text-2xl text-dark pb-4 font-semibold">Get more potential
+                                <div class="shadow shadow-lg px-6 py-8 rounded-lg">
+                                    <i class="far fa-flag text-4xl py-2 mb-2"></i>
+                                    <h2 class="title-font font-medium text-xl text-dark pb-4 font-semibold">Get more
+                                        potential
                                         customers</h2>
-                                    <p class="leading-relaxed text-gray-600">Finding potential customers is a pain, and
+                                    <p class="leading-relaxed text-gray-600 text-sm">Finding potential customers is a
+                                        pain, and
                                         SEO isn't easy either.
 
                                         We'll optimize your website so more people can find you, and convert them into
@@ -130,11 +138,13 @@
                                 </div>
                             </div>
                             <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
-                                <div class="shadow shadow-lg px-4 py-6 rounded-lg">
-                                    <i class="far fa-hourglass text-5xl py-2"></i>
-                                    <h2 class="title-font font-medium text-2xl text-dark pb-4 font-semibold">Keep your visitors on
+                                <div class="shadow shadow-lg px-6 py-8 rounded-lg">
+                                    <i class="far fa-hourglass text-4xl py-2 mb-2"></i>
+                                    <h2 class="title-font font-medium text-xl text-dark pb-4 font-semibold">Keep your
+                                        visitors on
                                         your site longer</h2>
-                                    <p class="leading-relaxed text-gray-600">46% of visitors don't come back if your
+                                    <p class="leading-relaxed text-gray-600 text-sm">46% of visitors don't come back if
+                                        your
                                         website doesn't load fast.
 
                                         We'll build your website to load in the blink of an eye, so you don't lose
@@ -142,11 +152,13 @@
                                 </div>
                             </div>
                             <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
-                                <div class="shadow shadow-lg px-4 py-6 rounded-lg">
-                                    <i class="far fa-sun text-5xl py-2"></i>
-                                    <h2 class="title-font font-medium text-2xl text-dark pb-4 font-semibold">Showcase your brand
+                                <div class="shadow shadow-lg px-6 py-8 rounded-lg">
+                                    <i class="far fa-sun text-4xl py-2 mb-2"></i>
+                                    <h2 class="title-font font-medium text-xl text-dark pb-4 font-semibold">Showcase
+                                        your brand
                                         effortlessly</h2>
-                                    <p class="leading-relaxed text-gray-600">Letting your visitors know what you're
+                                    <p class="leading-relaxed text-gray-600 text-sm">Letting your visitors know what
+                                        you're
                                         about is tough.
 
                                         We'll make sure your website effectively communicates your brand - and looks
@@ -160,19 +172,26 @@
                 <!-- PROJECTS SECTION -->
 
                 <section class="text-gray-400 dark-section body-font" id="my-work">
-                    <div class="container px-5 py-24 mx-auto">
+                    <div class="container px-14 py-24 mx-auto">
                         <div class="flex flex-wrap -m-4">
-                            <div class="p-4 md:w-1/3">
-                                <div class="h-full card-back shadow shadow-xl rounded-lg overflow-hidden">
-                                    <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                        src="images/splittr-small.png" alt="blog">
+                            <a href="https://www.huntsmansavilerow.com/" class="p-4 md:w-1/3">
+                                <div class="h-full block card-back shadow shadow-xl rounded-lg overflow-hidden">
+                                    <img class="lg:h-52 md:h-36 w-full object-cover object-top"
+                                        src="images/huntsman.png" alt="huntsman project picture">
                                     <div class="p-6">
                                         <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
-                                            CATEGORY</h2>
-                                        <h1 class="title-font text-lg font-medium text-white mb-3">Splittr</h1>
-                                        <p class="leading-relaxed mb-3">A responsive web app to help split the bill with your mates after a chill meal.</p>
+                                            PROJECT
+                                        </h2>
+
+                                        <h1 class="title-font text-lg font-medium text-white mb-3">Huntsman</h1>
+                                        <p class="leading-relaxed mb-3 text-sm">
+                                            Built a responsive website for Huntsman Saville, focusing on seamless
+                                            navigation, accessibility, and a polished user experience.
+                                        </p>
+
                                         <div class="flex items-center flex-wrap ">
-                                            <a  href ="https://splittr.netlify.app/" class="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">Visit
+                                            <!-- <a href="https://www.huntsmansavilerow.com/"
+                                                class="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">Visit
                                                 Site
                                                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
                                                     stroke-width="2" fill="none" stroke-linecap="round"
@@ -180,7 +199,17 @@
                                                     <path d="M5 12h14"></path>
                                                     <path d="M12 5l7 7-7 7"></path>
                                                 </svg>
-                                            </a>
+                                            </a> -->
+
+                                            <div class="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">Visit
+                                                Site
+                                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                                    stroke-width="2" fill="none" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <path d="M5 12h14"></path>
+                                                    <path d="M12 5l7 7-7 7"></path>
+                                                </svg>
+                                            </div>
                                             <span
                                                 class="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1"></span>
                                             <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
@@ -192,18 +221,20 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="p-4 md:w-1/3">
+                            </a>
+                            <a href="https://www.notwoways.com" class="p-4 md:w-1/3">
                                 <div class="h-full card-back rounded-lg shadow shadow-xl overflow-hidden">
-                                    <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                        src="images/evelo-small1.png" alt="blog">
+                                    <img class="lg:h-52 md:h-36 w-full object-cover object-top"
+                                        src="images/notwoways.png" alt="notwoways project picture">
                                     <div class="p-6">
                                         <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
-                                            CATEGORY</h2>
-                                        <h1 class="title-font text-lg font-medium text-white mb-3">Evelo</h1>
-                                        <p class="leading-relaxed mb-3"><strong>Desktop</strong> landing page concept for an electric bike company.</p>
+                                            PROJECT
+                                        </h2>
+                                        <h1 class="title-font text-lg font-medium text-white mb-3">NotwoWays</h1>
+                                        <p class="leading-relaxed mb-3 text-sm">Developed a sleek, responsive e-commerce
+                                            platform for NotwoWays, a London-based sneaker and apparel brand.</p>
                                         <div class="flex items-center flex-wrap">
-                                            <a  href ="https://evelo.netlify.app/" class="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">Visit
+                                            <div class="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">Visit
                                                 Site
                                                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
                                                     stroke-width="2" fill="none" stroke-linecap="round"
@@ -211,7 +242,7 @@
                                                     <path d="M5 12h14"></path>
                                                     <path d="M12 5l7 7-7 7"></path>
                                                 </svg>
-                                            </a>
+                                            </div>
                                             <span
                                                 class="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
                                                 <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2"
@@ -224,18 +255,21 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="p-4 md:w-1/3">
+                            </a>
+                            <a href="https://shop.purdey.com/" class="p-4 md:w-1/3">
                                 <div class="h-full  rounded-lg shadow shadow-xl overflow-hidden card-back">
-                                    <img class="lg:h-48 md:h-36 w-full object-cover object-center"
-                                        src="images/interior-small.png" alt="blog">
+                                    <img class="lg:h-52 md:h-38 w-full object-cover object-top" src="images/purdey.png"
+                                        alt="purdey project picture">
                                     <div class="p-6">
                                         <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
-                                            CATEGORY</h2>
-                                        <h1 class="title-font text-lg font-medium text-white mb-3">This Interior</h1>
-                                        <p class="leading-relaxed mb-3">Landing page concept for interior design freelancer.</p>
+                                            PROJECT
+                                        </h2>
+                                        <h1 class="title-font text-lg font-medium text-white mb-3">Purdey</h1>
+                                        <p class="leading-relaxed mb-3 text-sm">Collaborated on the development of the
+                                            Purdey online store, delivering a seamless and elegant shopping experience
+                                            that reflects the brand's heritage and craftsmanship</p>
                                         <div class="flex items-center flex-wrap ">
-                                            <a  href ="https://interiorium.netlify.app/"class="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">Vist
+                                            <div class="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">Vist
                                                 Site
                                                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
                                                     stroke-width="2" fill="none" stroke-linecap="round"
@@ -243,7 +277,7 @@
                                                     <path d="M5 12h14"></path>
                                                     <path d="M12 5l7 7-7 7"></path>
                                                 </svg>
-                                            </a>
+                                            </div>
                                             <span
                                                 class="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1">
                                                 <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2"
@@ -256,7 +290,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -266,9 +300,10 @@
 
                 <section class="text-gray-300 
      body-font svg-background">
-                    <div class="container px-5 py-32 mx-auto my-auto flex flex-col justify-center items-center">
+                    <div class="container px-14 py-32 mx-auto my-auto flex flex-col justify-center items-center">
                         <div class="flex flex-col text-center w-full">
-                            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white font-semibold">Don’t settle for
+                            <h1 class="text-3xl lg:text-4xl font-medium title-font mb-4 text-white font-semibold">Don’t
+                                settle for
                                 anything less than incredible.
                             </h1>
                             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">I am proud to say, I go all in to
@@ -283,8 +318,10 @@
                 <section class="text-gray-400 bg-gray-900 body-font relative white-section" id="get-in-touch">
                     <div class="container px-5 py-24 mx-auto">
                         <div class="flex flex-col text-center w-full mb-12">
-                            <h1 class="sm:text-base text-base font-medium title-font mb-2 text-gray-800 font-semibold">Get in touch</h1>
-                            <p class="lg:w-2/3 mx-auto leading-tight text-3xl font-semibold">Let's discuss your new website.</p>
+                            <h1 class="sm:text-base text-base font-medium title-font mb-2 text-gray-800 font-semibold">
+                                Get in touch</h1>
+                            <p class="lg:w-2/3 mx-auto leading-tight text-3xl font-semibold">Let's discuss your new
+                                website.</p>
                         </div>
                         <div class="lg:w-1/2 md:w-2/3 mx-auto">
                             <form class="flex flex-wrap -m-2" name="contact" method="POST" data-netlify="true">
@@ -339,7 +376,7 @@
                         <p
                             class="text-sm text-gray-300 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
                             ©
-                            2021 Namukolodev —
+                            2025 Namukolodev —
                             <a href="https://twitter.com/namukolodev" class="text-gray-300 ml-1" target="_blank"
                                 rel="noopener noreferrer">@namukolodev</a>
                         </p>
